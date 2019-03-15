@@ -1,0 +1,187 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<Form version="1.3" maxVersion="1.9" type="org.netbeans.modules.form.forminfo.JFrameFormInfo">
+  <Properties>
+    <Property name="defaultCloseOperation" type="int" value="3"/>
+  </Properties>
+  <SyntheticProperties>
+    <SyntheticProperty name="formSizePolicy" type="int" value="1"/>
+    <SyntheticProperty name="generateCenter" type="boolean" value="false"/>
+  </SyntheticProperties>
+  <AuxValues>
+    <AuxValue name="FormSettings_autoResourcing" type="java.lang.Integer" value="0"/>
+    <AuxValue name="FormSettings_autoSetComponentName" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_generateFQN" type="java.lang.Boolean" value="true"/>
+    <AuxValue name="FormSettings_generateMnemonicsCode" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_i18nAutoMode" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_layoutCodeTarget" type="java.lang.Integer" value="1"/>
+    <AuxValue name="FormSettings_listenerGenerationStyle" type="java.lang.Integer" value="0"/>
+    <AuxValue name="FormSettings_variablesLocal" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_variablesModifier" type="java.lang.Integer" value="2"/>
+  </AuxValues>
+
+  <Layout>
+    <DimensionLayout dim="0">
+      <Group type="103" groupAlignment="0" attributes="0">
+          <Group type="102" attributes="0">
+              <EmptySpace max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <Component id="jLabel1" alignment="0" min="-2" pref="84" max="-2" attributes="0"/>
+                  <Component id="hostOSNameField" alignment="0" min="-2" max="-2" attributes="0"/>
+                  <Component id="hostOSVersionNameField" alignment="0" min="-2" max="-2" attributes="0"/>
+                  <Component id="hostIPAddressNameField" alignment="0" min="-2" max="-2" attributes="0"/>
+                  <Component id="hostSubnetMaskNameField" alignment="0" min="-2" max="-2" attributes="0"/>
+                  <Component id="hostDNSNameField" alignment="0" min="-2" max="-2" attributes="0"/>
+                  <Group type="103" alignment="0" groupAlignment="1" attributes="0">
+                      <Component id="editAcceptButton" min="-2" max="-2" attributes="0"/>
+                      <Component id="hostDefaultGatewayNameField" min="-2" max="-2" attributes="0"/>
+                  </Group>
+              </Group>
+              <EmptySpace min="-2" pref="55" max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <Component id="editCancelButton" min="-2" max="-2" attributes="0"/>
+                  <Group type="103" groupAlignment="0" max="-2" attributes="0">
+                      <Group type="102" attributes="0">
+                          <EmptySpace min="-2" pref="110" max="-2" attributes="0"/>
+                          <Component id="jLabel2" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                      <Component id="hostOSField" max="32767" attributes="0"/>
+                      <Component id="hostOSVersionField" alignment="0" max="32767" attributes="0"/>
+                      <Component id="hostIPAddressField" alignment="0" max="32767" attributes="0"/>
+                      <Component id="hostSubnetMaskField" alignment="0" max="32767" attributes="0"/>
+                      <Component id="hostDefaultGatewayField" alignment="0" max="32767" attributes="0"/>
+                      <Component id="hostDNSField" alignment="0" max="32767" attributes="0"/>
+                      <Component id="hostName" pref="177" max="32767" attributes="0"/>
+                  </Group>
+              </Group>
+              <EmptySpace pref="283" max="32767" attributes="0"/>
+          </Group>
+      </Group>
+    </DimensionLayout>
+    <DimensionLayout dim="1">
+      <Group type="103" groupAlignment="0" attributes="0">
+          <Group type="102" alignment="0" attributes="0">
+              <EmptySpace min="-2" pref="22" max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <Component id="jLabel2" min="-2" max="-2" attributes="0"/>
+                  <Group type="103" groupAlignment="3" attributes="0">
+                      <Component id="jLabel1" alignment="3" min="-2" pref="27" max="-2" attributes="0"/>
+                      <Component id="hostName" alignment="3" min="-2" max="-2" attributes="0"/>
+                  </Group>
+              </Group>
+              <EmptySpace min="-2" pref="25" max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="3" attributes="0">
+                  <Component id="hostOSNameField" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="hostOSField" alignment="3" min="-2" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace min="-2" pref="25" max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="3" attributes="0">
+                  <Component id="hostOSVersionNameField" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="hostOSVersionField" alignment="3" min="-2" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace min="-2" pref="33" max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <Component id="hostIPAddressNameField" min="-2" max="-2" attributes="0"/>
+                  <Component id="hostIPAddressField" min="-2" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace type="separate" max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <Component id="hostSubnetMaskNameField" min="-2" max="-2" attributes="0"/>
+                  <Component id="hostSubnetMaskField" min="-2" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace type="separate" max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <Component id="hostDefaultGatewayNameField" min="-2" max="-2" attributes="0"/>
+                  <Component id="hostDefaultGatewayField" min="-2" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace type="separate" max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <Component id="hostDNSNameField" min="-2" max="-2" attributes="0"/>
+                  <Component id="hostDNSField" min="-2" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace min="-2" pref="47" max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="3" attributes="0">
+                  <Component id="editAcceptButton" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="editCancelButton" alignment="3" min="-2" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace pref="78" max="32767" attributes="0"/>
+          </Group>
+      </Group>
+    </DimensionLayout>
+  </Layout>
+  <SubComponents>
+    <Component class="javax.swing.JLabel" name="jLabel1">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Host:"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="jLabel2">
+    </Component>
+    <Component class="javax.swing.JLabel" name="hostOSNameField">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="OS:"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JTextField" name="hostOSField">
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="hostOSFieldActionPerformed"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JLabel" name="hostOSVersionNameField">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="OS Version:"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="hostIPAddressNameField">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="IP Address:"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="hostSubnetMaskNameField">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Subnet Mask"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="hostDefaultGatewayNameField">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Default Gateway:"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="hostDNSNameField">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="DNS"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JTextField" name="hostOSVersionField">
+    </Component>
+    <Component class="javax.swing.JTextField" name="hostIPAddressField">
+    </Component>
+    <Component class="javax.swing.JTextField" name="hostSubnetMaskField">
+    </Component>
+    <Component class="javax.swing.JTextField" name="hostDefaultGatewayField">
+    </Component>
+    <Component class="javax.swing.JTextField" name="hostDNSField">
+    </Component>
+    <Component class="javax.swing.JTextField" name="hostName">
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="hostNameActionPerformed"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JButton" name="editAcceptButton">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Accept"/>
+      </Properties>
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="editAcceptButtonActionPerformed"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JButton" name="editCancelButton">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Cancel"/>
+      </Properties>
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="editCancelButtonActionPerformed"/>
+      </Events>
+    </Component>
+  </SubComponents>
+</Form>
